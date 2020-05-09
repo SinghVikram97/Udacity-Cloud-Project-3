@@ -5,14 +5,14 @@ metadata:
     service: backend-user
   name: backend-user
 spec:
-  replicas: 2
+  replicas: 1
   template:
     metadata:
       labels:
         service: backend-user
     spec:
       containers:
-      - image: scheele/udacity-restapi-user
+      - image: vikrambedi/rest-api-user
         name: backend-user 
         imagePullPolicy: Always  
         resources:
