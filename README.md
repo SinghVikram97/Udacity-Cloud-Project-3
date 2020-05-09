@@ -41,6 +41,10 @@ The project is split into four parts:
 3. Publish the backend feed image with `docker push {your_docker_hub_username}/udacity-restapi-feed`.
 4. Publish the backend feed image with `docker push {your_docker_hub_username}/udacity-frontend`.
 
+### My Docker Hub Url
+
+[Docker Hub](https://hub.docker.com/u/vikrambedi)
+
 ### Deploy to Kubernetes Cluster
 
 1. Navigate to the udacity-c3-deployment/k8s/ directory.
